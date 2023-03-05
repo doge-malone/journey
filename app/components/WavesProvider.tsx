@@ -1,7 +1,14 @@
 import { useRouter } from "next/router";
-import { createContext, useContext, useEffect, useState } from "react";
+import {
+  createContext,
+  useCallback,
+  useContext,
+  useEffect,
+  useState,
+} from "react";
 import { ProviderKeeper, isKeeperInstalled } from "@waves/provider-keeper";
 import { Signer } from "@waves/signer";
+import { onboardUser } from "@utils/web3";
 
 const signer = new Signer({
   NODE_URL: "https://nodes.wavesnodes.com",
@@ -71,6 +78,18 @@ export const WavesProvider = ({ children }: any) => {
     }
     checkKeeperInstalled();
   }, []);
+
+  // hook to save user in db
+  const saveUser = useCallback(async () => {
+    console.log("onboardUser: ", address);
+    await onboardUser(address);
+  }, [address]);
+
+  useEffect(() => {
+    if (address) {
+      saveUser();
+    }
+  }, [address, saveUser]);
 
   return (
     <WavesContext.Provider

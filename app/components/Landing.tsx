@@ -1,6 +1,5 @@
 import { Button, VStack, Image, Box, Text, Spinner } from "@chakra-ui/react";
 import styles from "@styles/Home.module.css";
-import { useEffect, useState } from "react";
 import { useWaves } from "./WavesProvider";
 
 function Landing() {
