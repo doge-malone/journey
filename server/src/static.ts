@@ -42,36 +42,27 @@ export const mockQuests: Quest[] = [
     steps: {
       0: {
         amount: 100,
-        description: "Swap at least 0.1 WAVES to XTN on Swop Finance.",
+        description: "Swap at least 0.1 WAVES to SWOP on Swop Finance.",
         start_url:
-          "https://swop.fi/exchange?from=WAVES&to=DG2xFkPdDwKUoBkzGAhQtLpSGzfXLiCYPEzeKH2Ad24p",
-        title: "Swap your WAVES to XTN on Swop Finance",
+          "https://swop.fi/exchange?from=WAVES&to=Ehie5xYpeN8op1Cctc6aGUrqx8jq3jtf1DSjXDbfm7aT",
+        title: "Swap your WAVES to SWOP on Swop Finance",
         isTwitter: false,
       },
       1: {
         amount: 100,
         description:
-          "Add liquidity to the WAVES / XTN pool on Swop Finance to earn fees when users swap in this pool.",
+          "Add liquidity to the WAVES / SWOP pool on Swop Finance to earn fees when users swap in this pool.",
         start_url:
-          "https://swop.fi/liquidity?address=3PHaNgomBkrvEL2QnuJarQVJa71wjw9qiqG",
-        title: "Provide liquidity to the WAVES/XTN pool",
+          "https://swop.fi/liquidity?address=3PH8Np6jwuoikvkHL2qmdpFEHBR4UV5vwSq",
+        title: "Provide liquidity to the WAVES/SWOP pool",
         isTwitter: false,
       },
       2: {
         amount: 100,
         description:
-          "Boost your earnings from Step 2 by depositing your LP tokens into the WAVES / XTN farm",
-        start_url:
-          "https://swop.fi/pool?address=3PHaNgomBkrvEL2QnuJarQVJa71wjw9qiqG&filter=&page=1",
-        title: "Stake your LP tokens in the WAVES/XTN farm",
-        isTwitter: false,
-      },
-      3: {
-        amount: 100,
-        description:
-          "Show your love and support by following Swop Finance on Twitter.",
+          "Congrats! Now you'll start earning LP rewards. Show your support by following Swop Finance on Twitter.",
         start_url: "https://twitter.com/Swopfi",
-        partner_id: "1293456657465217024",
+        partner_id: "1321498483451432961",
         title: "Follow Swop Finance on Twitter",
         isTwitter: true,
       },
