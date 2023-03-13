@@ -116,7 +116,7 @@ function Community() {
                   {abridgeAddress(address)}
                 </Text>
                 <Text className={styles.tableHeader4}>{xp}</Text>
-                <Text className={styles.tableHeader5}>Beta</Text>
+                <Text className={styles.tableHeader5}>New</Text>
                 <Text className={styles.tableHeader6}>{joinedAt}</Text>
               </HStack>
             ))}
