@@ -16,7 +16,7 @@ export const users = [
   {
     id: Math.random() * 1000,
     address: "3PHJinBWnyLVHP3ygVov3jPBkfZmssft7jN",
-    username: "iconlover",
+    username: "waveslover",
     xp: 2000,
     joinedAt: "3/3/2023",
   },

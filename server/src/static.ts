@@ -25,10 +25,11 @@ export const mockQuests: Quest[] = [
       image_url: "/sd_swop.jpg",
       preview_url: "/sd_swop.jpg",
       title: "DEX 101 with Swop Finance",
-      token_uri: "",
+      token_uri:
+        "https://bafybeihszrfoe35u74kuq57znue7vt54nzer6dmnhi5puxcd7eq5v6yq2i.ipfs.w3s.link/sd_swop.jpg",
     },
     token_reward: {
-      amount: "10",
+      amount: "2",
       fiat_amount: "10",
       symbol: "WAVES",
     },
@@ -83,7 +84,7 @@ export const mockQuests: Quest[] = [
         "https://bafybeigm4brunh2ku64nsvwlvhmg64lksh4co3kzetwpx5a5ti2vgmcoku.ipfs.w3s.link/2.json",
     },
     token_reward: {
-      amount: "10",
+      amount: "2",
       fiat_amount: "10",
       symbol: "WAVES",
     },
@@ -136,7 +137,7 @@ export const mockQuests: Quest[] = [
         "https://bafybeia2nhowgdzlusgmki3k47pca7qxrsevsnmwflck6j7xkt4tgqadya.ipfs.w3s.link/3.json",
     },
     token_reward: {
-      amount: "10",
+      amount: "2",
       fiat_amount: "10",
       symbol: "WAVES",
     },
@@ -188,7 +189,7 @@ export const mockQuests: Quest[] = [
         "https://bafybeidkgvodcbnmwbtfb2o2jmv4egsuj27xlppyvgivfr2krzcj7aaiai.ipfs.w3s.link/4.json",
     },
     token_reward: {
-      amount: "10",
+      amount: "2",
       fiat_amount: "10",
       symbol: "WAVES",
     },
@@ -250,7 +251,7 @@ export const mockQuests: Quest[] = [
         "https://bafybeiatyzf5ochv43x53ejgsw6ybzssubfkxdcs2ojrews73ar7whdz6q.ipfs.w3s.link/5.json",
     },
     token_reward: {
-      amount: "10",
+      amount: "2",
       fiat_amount: "10",
       symbol: "WAVES",
     },
@@ -311,7 +312,7 @@ export const mockQuests: Quest[] = [
         "https://bafybeifzuodyma2id2hmadr5odexn3jjlqetbuc5a365xbfimhta7yyexq.ipfs.w3s.link/6.json",
     },
     token_reward: {
-      amount: "10",
+      amount: "2",
       fiat_amount: "10",
       symbol: "WAVES",
     },

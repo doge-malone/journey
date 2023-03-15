@@ -6,6 +6,7 @@
     "dev": "ts-node-dev --pretty --transpile-only src/index.ts"
   },
   "dependencies": {
+    "@waves/waves-transactions": "^4.2.10",
     "axios": "^1.1.3",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
