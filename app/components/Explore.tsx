@@ -5,6 +5,7 @@ import QuestCard from "./QuestCard";
 import { useEffect, useState } from "react";
 import Error404 from "./404";
 import { mockQuests } from "@data/static";
+import withTransition from "./withTransition";
 
 function Explore() {
   const router = useRouter();
@@ -60,4 +61,4 @@ function Explore() {
   );
 }
 
-export default Explore;
+export default withTransition(Explore);

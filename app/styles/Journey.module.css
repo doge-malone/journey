@@ -114,8 +114,8 @@
 
 .primaryButton {
   width: 100% !important;
-  background: linear-gradient(90deg, #00b6b9 0%, #006567 100%) !important;
-  border: 1px solid #0cb9bc;
+  background: linear-gradient(90deg, #0055ff 0%, #003297 100%) !important;
+  border: 1px solid #3c7dff;
   border-radius: 10px !important;
 }
 

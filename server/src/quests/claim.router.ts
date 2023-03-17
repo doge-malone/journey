@@ -17,6 +17,10 @@ export const claimRouter = express.Router();
 const RPC_URL = "https://nodes.wavesnodes.com";
 const SEED_PHRASE = process.env.SEED_PHRASE ?? "";
 
+function awaitConfirmation(ms: number): Promise<void> {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
 async function sendTokens(address, amount) {
   const signedTx = transfer(
     {
@@ -56,6 +60,8 @@ async function sendNFT(address, nft_reward) {
     },
     SEED_PHRASE
   );
+
+  await awaitConfirmation(3000);
 
   const sendTxn = await broadcast(signedTx, RPC_URL);
 

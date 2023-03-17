@@ -1,6 +1,7 @@
 import { Button, VStack, Image, Box, Text, Spinner } from "@chakra-ui/react";
 import styles from "@styles/Home.module.css";
 import { useWaves } from "./WavesProvider";
+import withTransition from "./withTransition";
 
 function Landing() {
   const { hasKeeper, isLoading, connectWallet } = useWaves();
@@ -33,4 +34,4 @@ function Landing() {
   );
 }
 
-export default Landing;
+export default withTransition(Landing);

@@ -14,6 +14,7 @@ import SuccessLottie from "@components/SuccessLottie";
 import { useRouter } from "next/router";
 import Error404 from "@components/404";
 import { useWaves } from "@components/WavesProvider";
+import withTransition from "@components/withTransition";
 
 const JOURNEY_API_URL =
   process.env.NEXT_PUBLIC_ENV === "prod"
@@ -159,4 +160,4 @@ function Twitter() {
   );
 }
 
-export default Twitter;
+export default withTransition(Twitter);

@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { VStack, Text } from "@chakra-ui/react";
 import { useWaves } from "@components/WavesProvider";
 import Explore from "@components/Explore";
+import withTransition from "@components/withTransition";
 
 function Home() {
   const { address } = useWaves();
@@ -38,4 +39,4 @@ function Home() {
   return !address ? <Landing /> : <Explore />;
 }
 
-export default Home;
+export default withTransition(Home);

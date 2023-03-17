@@ -26,6 +26,7 @@ import Error404 from "@components/404";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { useWaves } from "@components/WavesProvider";
+import withTransition from "@components/withTransition";
 
 const JOURNEY_API_URL =
   process.env.NEXT_PUBLIC_ENV === "prod"
@@ -294,4 +295,4 @@ function Profile() {
   );
 }
 
-export default Profile;
+export default withTransition(Profile);

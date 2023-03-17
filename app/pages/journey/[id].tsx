@@ -18,6 +18,7 @@ import RewardPill from "@components/RewardPill";
 import { CheckCircleIcon, NotAllowedIcon } from "@chakra-ui/icons";
 import { toastClaimFailure, toastClaimSuccess } from "@utils/toast";
 import { useWaves } from "@components/WavesProvider";
+import withTransition from "@components/withTransition";
 
 const JOURNEY_API_URL =
   process.env.NEXT_PUBLIC_ENV === "prod"
@@ -307,4 +308,4 @@ function Quest() {
   );
 }
 
-export default Quest;
+export default withTransition(Quest);

@@ -13,6 +13,7 @@ import { abridgeAddress } from "@utils/abridgeAddress";
 import { users } from "@data/users";
 import Error404 from "@components/404";
 import { useWaves } from "@components/WavesProvider";
+import withTransition from "@components/withTransition";
 
 const JOURNEY_API_URL =
   process.env.NEXT_PUBLIC_ENV === "prod"
@@ -77,7 +78,7 @@ function Community() {
           </HStack>
           {filteredUsers
             .sort((a, b) => b.xp - a.xp)
-            .map(({ username, address, xp, joinedAt, id }, idx) => (
+            .map(({ username, address, xp, joinedAt, tier, id }, idx) => (
               <HStack key={id} className={styles.tableRowContainer}>
                 {idx === 0 ? (
                   <VStack className={styles.tableHeader1}>
@@ -116,7 +117,9 @@ function Community() {
                   {abridgeAddress(address)}
                 </Text>
                 <Text className={styles.tableHeader4}>{xp}</Text>
-                <Text className={styles.tableHeader5}>New</Text>
+                <Text className={styles.tableHeader5}>
+                  {tier ? tier : "New"}
+                </Text>
                 <Text className={styles.tableHeader6}>{joinedAt}</Text>
               </HStack>
             ))}
@@ -126,4 +129,4 @@ function Community() {
   );
 }
 
-export default Community;
+export default withTransition(Community);
