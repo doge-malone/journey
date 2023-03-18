@@ -14,14 +14,14 @@ const Navbar = () => {
   return (
     <HStack className={styles.navbarContainer}>
       <VStack w="100%">
-        {/* <Text className={styles.announcement}>
+        <Text className={styles.announcement}>
           Please note Journey is in{" "}
           <Text as="span" fontWeight={700}>
             beta mode
           </Text>
-          . All quests will be verified on WAVES mainnet, but rewards will be
-          airdropped on WAVES Testnet (token rewards as WAVES).
-        </Text> */}
+          . All quests will be verified on WAVES mainnet, and NFT rewards will
+          be airdropped on WAVES mainnet.
+        </Text>
         <HStack className={styles.navbar}>
           <Link href="/">
             <Image
