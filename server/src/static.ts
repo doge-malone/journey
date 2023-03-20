@@ -99,26 +99,26 @@ export const mockQuests: Quest[] = [
       0: {
         amount: 100,
         description:
-          "Craft Network is an open NFT marketplace on ICON. Buy any NFT on Craft Network.",
-        start_url: "https://craft.network/marketplace",
-        title: "Buy an NFT on Craft Network",
+          "Place a limit order and swap at least 0.1 WAVES to WX on Waves Exchange.",
+        start_url: "https://waves.exchange/trading/spot/WX_WAVES",
+        title: "Swap WAVES to WX on Waves Exchange",
         isTwitter: false,
       },
       1: {
         amount: 100,
         description:
-          "Learn how to create your own unique NFT using the Craft Network NFT creator platform.",
-        start_url: "https://craft.network/create",
-        title: "Mint your own NFT on Craft Network",
+          "Earn rewards by staking your WX into the Waves Exchange Liquidity Pool.",
+        start_url: "https://waves.exchange/liquiditypools/boosting",
+        title: "Stake WX to boost rewards with gWX",
         isTwitter: false,
       },
       2: {
         amount: 100,
         description:
-          "Show your love and support by following Craft Network on Twitter!",
-        start_url: "https://twitter.com/craftdotnetwork",
+          "Show your love and support by following Waves Exchange on Twitter!",
+        start_url: "https://twitter.com/wxnetwork",
         partner_id: "1365481284441497605",
-        title: "Follow Craft Network on Twitter",
+        title: "Follow Waves Exchange on Twitter",
         isTwitter: true,
       },
     },
@@ -151,25 +151,18 @@ export const mockQuests: Quest[] = [
     steps: {
       0: {
         amount: 100,
-        description: `Swap at least 1 WAVES to FRMD on Balanced. Make sure to "Add Community Token List" to find FRMD.`,
-        start_url: "https://app.balanced.network/trade",
-        title: "Swap your WAVES to FRMD",
+        description: `Earn rewards by staking your WAVES to receive yield-bearing sWAVES`,
+        start_url: "https://swaves.pepe.team/",
+        title: "Stake your WAVES to earn rewards with sWAVES",
         isTwitter: false,
       },
       1: {
         amount: 100,
-        description: "Stake your FRMD and receive rewards in FRMD.",
-        start_url: "https://framd.art/app",
-        title: "Stake your WAVES on Framd",
-        isTwitter: false,
-      },
-      2: {
-        amount: 100,
         description:
-          "Show your love and support by following Framd on Twitter!",
-        start_url: "https://twitter.com/FramdNFT",
+          "Show your love and support by following Pepe Team on Twitter!",
+        start_url: "https://twitter.com/cryptopepeteam",
         partner_id: "1429775844159889409",
-        title: "Follow Framd on Twitter",
+        title: "Follow Pepe Team on Twitter",
         isTwitter: true,
       },
     },
@@ -203,35 +196,27 @@ export const mockQuests: Quest[] = [
     steps: {
       0: {
         amount: 100,
-        description:
-          "Deposit at least 1 WAVES into Balanced to use as collateral for borrowing.",
-        start_url: "https://app.balanced.network/",
-        title: "Deposit at least 1 WAVES as collateral",
+        description: "Swap at least 0.1 WAVES to XTN on Swop Finance.",
+        start_url:
+          "https://swop.fi/exchange?from=WAVES&to=DG2xFkPdDwKUoBkzGAhQtLpSGzfXLiCYPEzeKH2Ad24p",
+        title: "Swap your WAVES to XTN on Swop Finance",
         isTwitter: false,
       },
       1: {
         amount: 100,
-        description: "Swap at least 1 WAVES to BALN on Balanced.",
-        start_url: "https://app.balanced.network/trade",
-        title: "Swap your WAVES to BALN",
+        description: "Open a trading position (long or short) on any asset.",
+        start_url: "https://app.tsunami.exchange/trade/WAVESUSDX",
+        title: "Open a perpetual trading position",
         isTwitter: false,
       },
       2: {
         amount: 100,
         description:
-          "Supply BALN and bnUSD to the BALN/bnUSD pool on Balanced.",
-        start_url: "https://app.balanced.network/trade",
-        title: "Provide liqudity to the BALN/bnUSD pool",
-        isTwitter: false,
-      },
-      3: {
-        amount: 100,
-        description:
-          "Show your love and support by following BalancedDAO on Twitter!",
-        start_url: "https://twitter.com/BalancedDAO",
+          "Show your love and support by following Tsunami Finance on Twitter!",
+        start_url: "https://twitter.com/ExchangeTsunami",
         partner_id: "1222976679938670592",
 
-        title: "Follow BalancedDAO on Twitter",
+        title: "Follow Tsunami Finance on Twitter",
         isTwitter: true,
       },
     },
@@ -265,34 +250,20 @@ export const mockQuests: Quest[] = [
     steps: {
       0: {
         amount: 100,
-        description: "Supply at least 1 WAVES to receive sWAVES",
-        start_url: "https://app.omm.finance/#/home",
-        title: "Stake your WAVES to receive sWAVES on Omm",
+        description:
+          "Buy an artwork on SIGN Art with WAVES. Make sure it's one you like!",
+        start_url: "https://mainnet.sign-art.app/",
+        title: "Buy an artwork on SIGN Art with WAVES",
         isTwitter: false,
       },
       1: {
         amount: 100,
-        description: "Add sWAVES and OMM to the sWAVES/OMM pool on Balanced.",
-        start_url: "https://app.balanced.network/trade",
-        title: "Provide liquidity to sWAVES/OMM on Balanced",
-        isTwitter: false,
-      },
-      2: {
-        amount: 100,
         description:
-          "Boost your earnings from Step 2 by staking your LP tokens into the sWAVES/OMM farm",
-        start_url: "https://app.omm.finance/#/rewards",
-        title: "Stake your sWAVES/OMM LP tokens for rewards",
-        isTwitter: false,
-      },
-      3: {
-        amount: 100,
-        description:
-          "Show your love and support by following Omm Finance on Twitter!",
-        start_url: "https://twitter.com/ommfinance",
+          "Show your love and support by following SIGN Art on Twitter!",
+        start_url: "https://twitter.com/signArtApp",
         partner_id: "1307205384197738496",
 
-        title: "Follow Omm Finance on Twitter",
+        title: "Follow SIGN Art on Twitter",
         isTwitter: true,
       },
     },
@@ -326,33 +297,34 @@ export const mockQuests: Quest[] = [
     steps: {
       0: {
         amount: 100,
-        description: "Swap at least 1 WAVES to FIN and bnUSD on Balanced.",
-        start_url: "https://app.balanced.network/trade",
-        title: "Swap your WAVES to FIN and bnUSD on Balanced",
+        description:
+          "Supply at least 0.1 WAVES into the Vires Money Market to be used as collateral to borrow against.",
+        start_url: "https://vires.finance/",
+        title: "Supply at least 0.1 WAVES into the Vires Market",
         isTwitter: false,
       },
       1: {
         amount: 100,
-        description: "Add FIN and bnUSD to the FIN/bnUSD pool on Balanced.",
-        start_url: "https://app.balanced.network/trade",
-        title: "Provide liquidity to FIN/bnUSD on Balanced",
+        description: `Find the "Collateral" tab under "My Supply" and turn on "Use as Collateral" for your supplied WAVES.`,
+        start_url: "https://vires.finance/",
+        title: `Turn on "Use as Collateral" for WAVES`,
         isTwitter: false,
       },
       2: {
         amount: 100,
         description:
-          "Boost your earnings from Step 2 by staking your LP tokens into the FIN/bnUSD farm",
-        start_url: "https://optimus.finance/staking",
-        title: "Stake your FIN/bnUSD LP tokens for rewards",
+          "Borrow any amount of XTN against your deposited WAVES collateral",
+        start_url: "https://vires.finance/",
+        title: "Borrow XTN against your WAVES collateral",
         isTwitter: false,
       },
       3: {
         amount: 100,
         description:
-          "Show your love and support by following Optimus on Twitter!",
-        start_url: "https://twitter.com/OptimusDeFi",
+          "Show your love and support by following Vires Finance on Twitter!",
+        start_url: "https://twitter.com/viresfinance",
         partner_id: "1432296862967496706",
-        title: "Follow Optimus on Twitter",
+        title: "Follow Vires Finance on Twitter",
         isTwitter: true,
       },
     },

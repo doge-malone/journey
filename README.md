@@ -1,6 +1,6 @@
 # Journey
 
-Journey is a Waves-native quests platform built to onboard the next billion users into crypto through the Waves blockchain. This project was built for the Waves Hyperbuild Hackathon.
+Journey is a Waves-native quests platform built to onboard the next billion users into crypto through the Waves blockchain. This project was built for the Waves Global Hackathon 2022.
 
 - Check out the [Live Deployment](https://tryjourney.page)
 - Check out the [Walkthrough Demo](https://vimeo.com/811025318)

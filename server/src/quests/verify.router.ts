@@ -64,11 +64,11 @@ verifyRouter.get("/:questId/:address", async (req: Request, res: Response) => {
             }
           } else {
             const response = await fetch(
-              `https://api.wavesplatform.com/v0/transactions/all?sender=${address}&timeStart=${1679537226216}&sort=desc&limit=100`
+              `https://nodes.wavesnodes.com/transactions/address/${address}/limit/1000`
             );
 
             const result = await response.json();
-            const transactions = result.data;
+            const transactions = result[0];
 
             let foundTxn;
 

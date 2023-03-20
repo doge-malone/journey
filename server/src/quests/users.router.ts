@@ -58,16 +58,21 @@ usersRouter.post("/new", async (req: Request, res: Response) => {
     const { address } = req.body;
 
     const docRef = doc(db, "users", address);
-    await setDoc(docRef, {
-      address: address,
-      uuid: uuidv4(),
-      quests: {},
-      xp: 0,
-      twitter: {},
-      joinedAt: new Date().toLocaleDateString(),
-      username: "Untitled User",
-    });
-    res.status(200).send("User successfully added");
+    const docSnap = await getDoc(docRef);
+
+    if (!docSnap.exists()) {
+      await setDoc(docRef, {
+        address: address,
+        uuid: uuidv4(),
+        quests: {},
+        xp: 0,
+        twitter: {},
+        joinedAt: new Date().toLocaleDateString(),
+        username: "Untitled User",
+      });
+
+      res.status(200).send("User successfully added");
+    }
   } catch (e) {
     console.log(e);
     res.status(500).send({ message: "server error" });

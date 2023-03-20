@@ -130,7 +130,6 @@ claimRouter.get("/:questId/:address", async (req: Request, res: Response) => {
         completed_users,
       } = docSnap.data();
 
-      // await sendTokens(address, 1000000);
       await sendNFT(address, nft_reward);
 
       // UPDATE XP
