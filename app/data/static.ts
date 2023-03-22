@@ -117,7 +117,7 @@ export const mockQuests: Quest[] = [
         description:
           "Show your love and support by following Waves Exchange on Twitter!",
         start_url: "https://twitter.com/wxnetwork",
-        partner_id: "1365481284441497605",
+        partner_id: "1134068540640759808",
         title: "Follow Waves Exchange on Twitter",
         isTwitter: true,
       },
@@ -161,7 +161,7 @@ export const mockQuests: Quest[] = [
         description:
           "Show your love and support by following Pepe Team on Twitter!",
         start_url: "https://twitter.com/cryptopepeteam",
-        partner_id: "1429775844159889409",
+        partner_id: "1458413561169039367",
         title: "Follow Pepe Team on Twitter",
         isTwitter: true,
       },
@@ -214,7 +214,7 @@ export const mockQuests: Quest[] = [
         description:
           "Show your love and support by following Tsunami Finance on Twitter!",
         start_url: "https://twitter.com/ExchangeTsunami",
-        partner_id: "1222976679938670592",
+        partner_id: "1525905264217579522",
 
         title: "Follow Tsunami Finance on Twitter",
         isTwitter: true,
@@ -261,7 +261,7 @@ export const mockQuests: Quest[] = [
         description:
           "Show your love and support by following SIGN Art on Twitter!",
         start_url: "https://twitter.com/signArtApp",
-        partner_id: "1307205384197738496",
+        partner_id: "1274989317081796608",
 
         title: "Follow SIGN Art on Twitter",
         isTwitter: true,
@@ -323,7 +323,7 @@ export const mockQuests: Quest[] = [
         description:
           "Show your love and support by following Vires Finance on Twitter!",
         start_url: "https://twitter.com/viresfinance",
-        partner_id: "1432296862967496706",
+        partner_id: "1402224818699882497",
         title: "Follow Vires Finance on Twitter",
         isTwitter: true,
       },
